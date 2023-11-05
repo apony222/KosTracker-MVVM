@@ -14,4 +14,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KosTracker.Core\KosTracker.Core.csproj" />
+    <ProjectReference Include="..\KosTracker.Data\KosTracker.Data.csproj" />
+  </ItemGroup>
+
 </Project>
