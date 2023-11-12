@@ -12,11 +12,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KosTracker.Core\KosTracker.Core.csproj" />
     <ProjectReference Include="..\KosTracker.Data\KosTracker.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Imgs\" />
   </ItemGroup>
 
 </Project>
